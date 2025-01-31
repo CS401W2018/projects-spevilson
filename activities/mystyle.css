@@ -1,0 +1,23 @@
+main p {
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para1 {
+    color: blue;
+}
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+.box {
+    border: 2px solid black;
+    text-align: center;
+}
