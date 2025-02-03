@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #AA80AA; */
+}
+
+footer p {
+    color: aquamarine;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+#secondpar {
+    color: coral;
+}
+
+.brown {
+    color: #AA8080;
+}
+
+.bigger {
+    font-size: 18pt;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.blue {
+    background-color: lightblue;
+}
