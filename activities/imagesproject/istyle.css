@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('backj.jpg') darkblue;
+}
+
+header {
+    color: black;
+    background: url('lightningbolt.png') center no-repeat;
+    /* background-image: url('lightningbolt.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+main p{
+    color: black;
+    font-size: 18pt;
+}
+.mylist {
+    list-style-image: url('favicon.ico');
+}
