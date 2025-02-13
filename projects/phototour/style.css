@@ -1,0 +1,23 @@
+nav a {
+    color:blue;
+}
+.current {
+    color:#5BD;
+}
+body {
+    background-image: url("rptbg.jpg");
+    /*background-repeat: no-repeat;*/
+}
+.mylist {
+    list-style-image: url("favicon.ico");
+}
+.flagimage {
+    background: url("Thaiflag.png") right no-repeat;
+}
+header {
+    text-align: center;
+}
+main a {
+    /*text-decoration: none;*/
+    color:darkslategrey
+}
