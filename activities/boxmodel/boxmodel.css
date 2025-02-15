@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blanchedalmond;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 0;
+    padding: 0 25px 100px 0;
+    /*scroll-padding-top: 200px;*/
+}
+
+header h1 {
+    border: thin solid #000;
+    
+}
+
+.figwave {
+    width: 300px;
+    border: thin solid #000;
+    margin: auto;
+}
+.figwave img {
+    width: 100%;
+}
