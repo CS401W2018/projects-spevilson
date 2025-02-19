@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+}
+
+.floatimg {
+    float: right;
+}
+
+.lb {
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+}
+
+.movimg {
+    position: absolute;
+    top: 0;
+}
+
+.lb figcaption {
+    text-align: center;
+}
+.lb img{
+    width: 100%;
+}
+
+.stop {
+    clear: both;
+}
+
+nav a {
+    display: block;
+    background-color: aquamarine;
+    padding: 10px 5px;
+    border-bottom: thin solid #00F
+}
