@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header {
+    background-color: rgb(181,152,211);
+    border-radius: 3px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: none;
+}
+
+
+.card {
+    border: thin solid #000;
+    box-shadow: 3px 3px 3px rgba(50,50,50,0.5);
+    border-radius: 3px;
+    width: 250px;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+}
