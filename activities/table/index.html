@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <h1>Tables</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Days of the week</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="6">Winter 2025</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>140</td>
+                    <td>12:00-12:50</td>
+                    <td rowspan="3">M/W/F</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>REL</td>
+                    <td>275</td>
+                    <td>1:00-1:50</td>
+                    <!-- <td>MWF</td> -->
+                    <td>CH2A</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>MATH</td>
+                    <td>121</td>
+                    <td>2:00-2:50</td>
+                    <!-- <td>MWF</td> -->
+                    <td>SCB 304</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>202</td>
+                    <td>12:00-1:15</td>
+                    <td rowspan="2">T/Th</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>124</td>
+                    <td>3:00-4:15</td>
+                    <!-- <td>T/Th</td> -->
+                    <td>P1</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th id="totalcredits"colspan="5">Total Credits</th>
+                <td headers="totalcredits">14</td>
+            </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <h2>Questions</h2>
+        <h2>When do you use a table?</h2>
+        <p>You would use a table whenever you would want to use Excel. Any data that you would want to display you would use a table.</p>
+        <h2>When do you not use a table?</h2>
+        <p>You wouldn't use a table in situations like a side column or where a grid display would be more appropriate. A lot of data, or extra big datum, would make it a lot harder to use a table.</p>
+        <h2>When do you need to do extra work for table accessibility?</h2>
+        <p>You need to do extra work for table accessibility every time. If you want customers, especially customers that will come back, you should make your page accessible.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Spencer Wilson</p>
+    </footer>
+</body>
+</html>
