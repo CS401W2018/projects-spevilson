@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside {
+    width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+}
+
+table, th, td{
+    border: thin solid #000;
+}
+
+th {
+    background-color: gainsboro
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.purple {
+    background-color: rgb(186, 137, 231);
+}
+
+.one {
+    background-color: aliceblue;
+}
+
+.two {
+    background-color: rgb(187, 219, 247);
+}
+
+.three {
+    background-color: rgb(125, 185, 238);
+}
+
+.four {
+    background-color: rgb(109, 186, 253);
+}
+
+.five {
+    background-color: rgb(72, 166, 248);
+}
+
+.six {
+    background-color: rgb(30, 145, 245);
+}
