@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tron</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tron</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+            <legend>Create User</legend>
+            <div class="form-row">
+            <label for="uname">Username: </label>
+            <input type="text" name="username" id="uname" placeholder="~">
+            </div>
+            <div class="form-row">
+                <label for="pswd">Password: </label><input type="password" name="password" id="pswd" placeholder="~">
+            </div>
+            <div class="form-row">
+                <label for="eml">Email: </label><input type="email" name="email" id="eml" placeholder="youremail@website.com">
+            </div>
+            <div class="form-row">
+                <label for="utp">User type: </label>
+                <select name="usertype" id="utp">
+                    <option value="blank"></option>
+                    <option value="admin">Administrator</option>
+                    <option value="Default">Default User</option>
+                    <option value="LAU">Limited Access</option>
+                </select>
+            </div>
+            <div class="radio-row">
+                <div class="form-spacer">Purpose for using:</div>
+                <label><input type="radio" name="purp" value="Student">Student</label>
+                <label><input type="radio" name="purp" value="teacher">Teacher<label>
+                <label><input type="radio" name="purp" value="learner">Learner</label>
+                <label><input type="radio" name="purp" value="Fun">Fun</label>
+            </div>
+            <div class="radio-row">
+                <div class="form-spacer"></div>
+                <label><input type="checkbox" name="emails" id="emails"> Would you like to be contacted by Tron for special offers?</label>
+            </div>
+            <div class="form-row">
+                <label for="feedback">Feedback:</label>
+                <textarea name="feedback" id="feedback">Print Here...</textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-spacer"></div>
+                <input type="submit">
+            </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Spencer Wilson</p>
+    </footer>
+</body>
+</html>

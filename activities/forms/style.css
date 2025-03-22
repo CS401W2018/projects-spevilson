@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    background-color: rgb(194, 244, 244);
+    border-radius: 5px;
+}
+
+legend {
+    background-color: rgb(98,98,232);
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    border: thin solid black;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #777;
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: #FFF;
+    border-width: 0;
+}
+
+.form-row input[type="submit"] {
+    padding: 20px;
+    background-color: rgb(98, 98, 232);
+    color:#FFF;
+    font-size: 14px;
+    border-radius: 14px;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+@media ONLY screen AND (max-width: 600px) {
+    .form-row, radio-row{
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-spacer {
+        text-align: left;
+    }
+}
