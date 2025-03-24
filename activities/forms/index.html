@@ -11,7 +11,7 @@
         <h1>Web Design</h1>
     </header>
     <main>
-        <form action="processing.html" method="get">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset>
             <legend>Create Account</legend>
             <div class="form-row">
@@ -58,5 +58,26 @@
     <footer>
         <p>&copy; 2025 Spencer Wilson</p>
     </footer>
+    <hr>
+    <div>
+        <h2>Questions</h2>
+        <h2>What is JavaScript? How did it get its name?</h2>
+        <p>JavaScript was created in order to be run in a browser. It got its name when Sun MicroSystems named it after the Java programming language.</p>
+        <h2>What are the two ways you can run JavaScript?</h2>
+        <p>The first way is in the DOM, or in the browser. The second way is through node.js, which developers created in order to use JavaScript with servers.</p>
+        <h2>What was the most popular front-end js library?</h2>
+        <p>It used to be jQuery. It became really popular because it would make it so JavaScript was usable on any browser without edits.</p>
+        <h2>What is the most popular front-end js library today?</h2>
+        <p>One of the most popular, if not the most popular, is React.js.</p>
+    </div>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event) {
+            event.preventDefault();
+            alert("Form Submitted");
+            const fullname = document.getElementById('fname').value;
+
+            console.log("Hello, " + fullname);
+        });
+    </script>
 </body>
 </html>
