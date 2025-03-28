@@ -11,6 +11,7 @@
         <h1>Web Design</h1>
     </header>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="get" id="myForm">
             <fieldset>
             <legend>Create Account</legend>
@@ -54,6 +55,7 @@
             </div>
             </fieldset>
         </form>
+        
     </main>
     <footer>
         <p>&copy; 2025 Spencer Wilson</p>
@@ -70,14 +72,13 @@
         <h2>What is the most popular front-end js library today?</h2>
         <p>One of the most popular, if not the most popular, is React.js.</p>
     </div>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event) {
-            event.preventDefault();
-            alert("Form Submitted");
-            const fullname = document.getElementById('fname').value;
-
-            console.log("Hello, " + fullname);
-        });
-    </script>
+    <div>
+        <h2>Questions 3/28</h2>
+        <h2>What is AJAX?</h2>
+        <p>AJAX is a way for webpages to send and receive data asynchronously, which means that there's no need to reload the webpage every time.</p>
+        <h2>Why do you put your JS Code in a separate file?</h2>
+        <p>Itis similar to putting your CSS in a separate file. It is cleaner and easier to use, and it is easier for people that only are experts in one programming language instead of both.</p>
+    </div>
+    <script src="form.js"></script>
 </body>
 </html>
