@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: thin solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main img {
+    width: 500px;
+    border: thick solid black;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #94cef4;
+    border: thin solid black;
+    border-radius: 5px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h2 {
+    font-size: 14pt;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(234, 182, 129);
+    color:black;
+    border-radius: 3px;
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav a:hover {
+    color:rgb(232, 153, 75);
+    background-color: #FFF;
+    border: thin solid rgb(234, 182, 129);
+}
+
+@media ONLY screen AND (min-width: 720px) {
+    nav a {
+        width: 120px;
+    }
+    nav {
+        justify-content: space-around;
+    }
+}
