@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="center">Star Wars Sequel Trilogy: Trash or Treasure?</h1>
+        <h2>My take on the Final Star Wars Trilogy</h2>
+        <h2>by Spencer Wilson</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="forceawakens.html">The Force Awakens</a>
+            <a href="lastjedi.html">The Last Jedi</a>
+            <a href="riseofsky.html">Rise of Skywalker</a>
+            <a href="movcomp.html">Movie Comparison</a>
+            <a href="#" class="current">Character Development</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="margin_fifteen"><em>Your feedback on the Sequel Trilogy</em></h1>
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="myForm">
+            <fieldset>
+            <div class="form-row">
+                <label for="name">Your name: </label><input name="name" id="name">
+            </div>
+        
+            <div class="radio-row">
+                <div class="form-spacer">How accurate was this rating?: </div>
+                <label><input type="radio" name="rating" id="rating" value="one">Not accurate at all</label>
+                <label><input type="radio" name="rating" id="rating" value="two">A little accurate<label>
+                <label><input type="radio" name="rating" id="rating" value="three">Meh</label>
+                <label><input type="radio" name="rating" id="rating" value="four">Semi-accurate</label>
+                <label><input type="radio" name="rating" id="rating" value="five">Spot on!</label>
+            </div>
+            <div class="form-row">
+                <label for="q1">What do you like about the sequel trilogy?:</label>
+                <textarea name="q1" id="q1">Print Here...</textarea>
+            </div>
+            <div class="form-row">
+                <label for="q1">What did I miss?:</label>
+                <textarea name="q1" id="q1">Print Here...</textarea>
+            </div>
+            <div class="form-row">
+                <label for="q1">What didn't you like about my critiques?:</label>
+                <textarea name="q1" id="q1">Print Here...</textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-spacer"></div>
+                <input type="submit">
+            </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Spencer Wilson</p>
+    </footer>
+    <script src="form1.js"></script>
+</body>
+</html>

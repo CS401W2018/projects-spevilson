@@ -1,25 +1,146 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    border: thin solid black;
-    border-radius: 5px;
-    padding: 10px;
+    margin:0;
 }
 
-main img {
-    width: 500px;
-    border: thick solid black;
-    border-radius: 10px;
+.clear {
+    clear:both;
 }
+
+.screensize {
+    
+    width: 500px;
+    height: 340px;
+    border:thin solid #000;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.float {
+    float: left;
+}
+
+.floatr {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    flex: 3;
+    margin-right: 25%;
+    margin-left:25%;
+    margin-top: 10px;
+}
+
+table, th, td{
+    border: thin solid #000;
+}
+
+th {
+    background-color: gainsboro
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.purple {
+    background-color: rgb(186, 137, 231);
+}
+
+.one {
+    background-color: aliceblue;
+}
+
+.two {
+    background-color: rgb(181, 218, 250);
+}
+
+.three {
+    background-color: rgb(151, 202, 247);
+}
+
+.four {
+    background-color: rgb(122, 188, 247);
+}
+
+.five {
+    background-color: rgb(99, 180, 250);
+}
+
+.six {
+    background-color: rgb(78, 166, 243);
+}
+
+.seven {
+    background-color: rgb(63, 159, 243);
+}
+
+.eight {
+    background-color: rgb(39, 150, 247);
+}
+
+.nine {
+    background-color: rgb(23, 140, 241);
+}
+
+.poster {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+
+iframe {
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.parent {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.essay p{
+    display: block;
+    margin: 20px;
+}
+
+ul {
+    font-size: 16pt;
+    display: block;
+    margin-left: 25%;
+}
+
+
 
 header {
     background-color: #94cef4;
-    border: thin solid black;
-    border-radius: 5px;
+    background-image: url("138014.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    color: #FFF;
+    padding-top: 15px;
 }
 
 header h1 {
-    text-align: center;
+    margin:0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.margin_fifteen {
+    margin: 15px;
 }
 
 header h2 {
@@ -29,24 +150,47 @@ header h2 {
 
 nav {
     display: flex;
+    background-color: rgba(0,0,0,0.8);
     
 }
 
 nav a {
     text-decoration: none;
-    background-color: rgb(234, 182, 129);
-    color:black;
-    border-radius: 3px;
+    color:#FFF;
     width: 15%;
     text-align: center;
     padding: 5px;
     margin: 5px;
 }
 
-nav a:hover {
-    color:rgb(232, 153, 75);
-    background-color: #FFF;
-    border: thin solid rgb(234, 182, 129);
+main a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color:#94cef4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(243, 76, 76)
+    
+}
+
+.current {
+    color: rgb(86, 86, 233);
+}
+
+footer {
+    padding: 10px;
+}
+
+footer p {
+    margin:0;
+    font-size: 10pt;
 }
 
 @media ONLY screen AND (min-width: 720px) {
@@ -56,4 +200,79 @@ nav a:hover {
     nav {
         justify-content: space-around;
     }
+}
+
+fieldset {
+    background-color: rgb(162, 206, 250);
+    border-radius: 5px;
+}
+
+legend {
+    
+    background-color: rgb(247, 231, 166);
+    padding: 5px;
+    border-radius: 5px;
+    border: thin solid #000;
+}
+
+.form-row {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.form-row input {
+    border-radius: 3px;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #77777780;
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: #FFF;
+    border-width: 0;
+}
+
+.form-row input[type="submit"] {
+    padding: 5px;
+    background-color: rgb(160, 129, 245);
+    color:#000;
+    font-size: 14px;
+    border: thin solid #000;
+    border-radius: 5px;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+@media ONLY screen AND (max-width: 600px) {
+    .form-row, radio-row{
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-spacer {
+        text-align: left;
+    }
+
+
 }
